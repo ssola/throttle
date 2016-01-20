@@ -1,0 +1,19 @@
+{
+  "name": "ssola/throttle",
+  "description": "Protect your application",
+  "authors": [
+    {
+      "name": "Sergio Sola",
+      "email": "introduccio@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "4.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Throttle\\": "src/",
+      "Tests\\Throttle\\": "tests/"
+    }
+  }
+}
